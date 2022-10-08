@@ -32,7 +32,7 @@ Select an Operand
   stdout.writeln(message);
   operation = int.parse(stdin.readLineSync()!);
 
-  //decision statements
+  //decision statements ==> for the switch statement, we're checking what operator the user selects
   switch (operation) {
     case 1:
       {
