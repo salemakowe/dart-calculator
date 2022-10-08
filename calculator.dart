@@ -2,7 +2,7 @@ import "dart:io";
 import "dart:math";
 
 void main() {
-  double n1, n2, result;
+  double n1, n2;
   int operation;
 
   //first number
@@ -36,29 +36,37 @@ Select an Operand
   switch (operation) {
     case 1:
       {
-        n1 + n2;
-        print(result = n1 + n2);
+        print("Your answer is = ${n1 + n2}");
       }
       break;
 
     case 2:
       {
-        n1 - n2;
-        print(result = n1 - n2);
-      }
-      break;
-
-    case 2:
-      {
-        n1 * n2;
-        print(result = n1 * n2);
+        print("Your answer is = ${n1 - n2}");
       }
       break;
 
     case 3:
       {
-        n1 / n2;
-        print(result = n1 / n2);
+        print("Your answer is = ${n1 * n2}");
+      }
+      break;
+
+    case 4:
+      {
+        print("You answer is  = ${n1 / n2}");
+      }
+      break;
+
+    case 6:
+      {
+        print("Your answer is = ${n1 % n2}");
+      }
+      break;
+
+    case 8:
+      {
+        print("Your answer is = ${sqrt(n1)}");
       }
       break;
     default:
