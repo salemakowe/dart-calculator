@@ -2,16 +2,16 @@ import "dart:io";
 import "dart:math";
 
 void main() {
-  int n1, n2, operation, result;
-  // const result = 0;
+  double n1, n2, result;
+  int operation;
 
   //first number
   stdout.writeln("Enter First Number");
-  n1 = int.parse(stdin.readLineSync()!);
+  n1 = double.parse(stdin.readLineSync()!);
 
   //second number
   stdout.writeln("Enter SecondNumber");
-  n2 = int.parse(stdin.readLineSync()!);
+  n2 = double.parse(stdin.readLineSync()!);
 
   //operation message
   String message = """
@@ -45,6 +45,20 @@ Select an Operand
       {
         n1 - n2;
         print(result = n1 - n2);
+      }
+      break;
+
+    case 2:
+      {
+        n1 * n2;
+        print(result = n1 * n2);
+      }
+      break;
+
+    case 3:
+      {
+        n1 / n2;
+        print(result = n1 / n2);
       }
       break;
     default:
