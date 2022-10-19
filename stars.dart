@@ -15,7 +15,7 @@ void main() {
     for (int j = 1; j < i; j++) {
       stdout.write(j);
     }
-    // stdout.writeln(i);
+    stdout.writeln(i);
   }
   ;
 }
