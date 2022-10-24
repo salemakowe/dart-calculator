@@ -13,9 +13,8 @@ void main() {
 
   for (int i = 1; i <= t1; i++) {
     for (int j = 1; j < i; j++) {
-      stdout.write(j);
+      stdout.write("*");
     }
-    stdout.writeln(i);
+    stdout.writeln("*");
   }
-  ;
 }
